@@ -1,0 +1,27 @@
+@import "compass";
+@import "susyone";
+@import "normalize";
+
+@include establish-baseline;
+@include border-box-sizing;
+
+BODY{
+	margin: 1em;
+	background-color: #eee;
+}
+
+.root{
+	@include box-shadow(0 0 3px #000);
+	background-color: #fff;
+	max-width: 1000px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 1em;
+}
+
+HEADER{
+	border-bottom: 1px dotted #888;
+}
+FOOTER{
+	border-top: 1px dotted #888;
+}
