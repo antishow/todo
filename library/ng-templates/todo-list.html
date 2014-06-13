@@ -1,3 +1,6 @@
 <div class="todo-list">
-	This is a list of todo items. Or it will be anyway.
+	<button ng-click="addTodo()">Add a New Todo</button>
+	<div ng-repeat="todo in todos">
+		<todo-list-item todo="todo"></todo-list-item>
+	</div>
 </div>

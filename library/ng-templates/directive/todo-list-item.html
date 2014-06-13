@@ -1,6 +1,5 @@
 <div class="todo-list-item">
 	<h1 ng-bind="todo.title"></h1>
-	<h2>Due on <span ng-bind="todo.dueDate"></span></h2>
-	<input type="checkbox" ng-model="todo.done">
+	<input type="checkbox" ng-model="todo.done" ng-checked="todo.done">
 	<div ng-bind="todo.text"></div>
 </div>

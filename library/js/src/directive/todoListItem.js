@@ -4,7 +4,7 @@ app.directive("todoListItem", function(){
 		replace: true,
 		templateUrl: "/library/ng-templates/directive/todo-list-item.html",
 		scope: {
-			todo: "@"
+			todo: "="
 		}
 	};
 });

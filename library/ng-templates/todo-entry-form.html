@@ -1,3 +1,11 @@
 <div class="todo-entry-form">
-	Form Goes Here.
+	<p>
+		<label>Title</label>
+		<input ng-model="newTodo.title">
+	</p>	
+	<p>
+		<label>Text</label>
+		<input ng-model="newTodo.text">
+	</p>
+	<button ng-click="save()">Save</button>
 </div>
